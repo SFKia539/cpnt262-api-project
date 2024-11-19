@@ -56,7 +56,7 @@ button:hover {
 
 .location input,
 .location button {
-  margin-right: 10px; /* Adds space between the input and button */
+  margin-right: 10px;
 }
 
 .weather {
@@ -214,11 +214,10 @@ button:hover {
   }
 }
 
-/* Footer Styling */
 .footer {
-  background-color: #333; /* Dark background for footer */
-  color: white; /* White text */
-  padding: 20px;
+  background-color: #000000;
+  color: white;
+  padding: 15px;
   text-align: center;
   font-size: 0.9rem;
 }
@@ -244,7 +243,7 @@ button:hover {
 }
 
 .social-icon:hover {
-  color: #f0a500; /* Change color on hover */
+  color: #eaf609;
   text-decoration: underline;
 }
 

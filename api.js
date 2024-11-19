@@ -1,4 +1,4 @@
-const apiKey = "b13852367f55131884d9289580dedd31";
+const apiKey = "__API_KEY__";
 const endpoint = "https://api.openweathermap.org/data/2.5/weather";
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -102,7 +102,7 @@ function savesessionstorage(id) {
   sessionStorage.setItem(id, info);
 }
 
-function eatcookie(name) {
+function eatcookie(username) {
   let username = document.getElementById("name").value.trim;
   if (username) document.cookie = `username${username}; max-age = 300 `;
 }
